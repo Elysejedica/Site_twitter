@@ -1,0 +1,82 @@
+body{
+    margin: 10px 160px 0px 160px;
+    
+    
+}
+
+.contenaire {
+    border: 1px solid #cbcbcb;
+    border-radius: 8px;
+    padding: 5px;
+    background-color:beige;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+.contenu {
+    border: 1px solid #cbcbcb;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#post {
+    margin-top: none;
+    color: #949494;
+    text-transform: capitalize;
+}
+
+.commentaire {
+    border: 1px solid #cbcbcb;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: #cbcbcb;
+}
+
+.comments {
+    color: green;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#utilisateur{
+    color: rgb(2, 2, 199);
+}
+body.dark {
+    background-color: black;
+    background-image: none;
+}
+
+.dark .contenaire {
+    background-color: dimgray;
+    color: white;
+}
+
+.dark-mode{
+    background-color: black;
+    color: #f0f0ff;
+}
+
+.dark #utilisateur{
+    color: white;
+}
+
+.dark .comments{
+    color: cornflowerblue;
+}
+
+
+
+.dark #reglage{
+    color: white;
+}
+
+.dark .commentaire{
+    color: rgb(76, 88, 97);
+}
+
+.luminosite{
+   position: fixed;
+  padding-left: 5px;
+  padding-top: 5px;
+}
